@@ -32,5 +32,17 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 
 let a = 33;
 let str = String(a);
-console.log(str);
-console.log(typeof str);
+//console.log(str);
+//console.log(typeof str);
+//********************Operations**************** */
+
+//console.log(2 ** 3) // 2 the power 3 = 8
+let str1 = "Ankush";
+let str2 = " Yawale";
+let str3 = str1 + str2;
+//console.log(str3);
+
+console.log("1" + 2);//12
+console.log(1 + "2");//12
+console.log("1" + 2 + 2);//122
+console.log(1+ 2+ "2");// 32
