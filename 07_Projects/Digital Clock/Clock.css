@@ -1,0 +1,33 @@
+/* Centering the clock */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+}
+
+.center {
+    text-align: center;
+}
+
+#banner {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Styling the clock */
+#clock {
+    font-size: 80px;
+    color: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 7px;
+    padding: 20px;
+    border: 10px solid #00FF00;
+    border-radius: 15px;
+    background-color: #000;
+    box-shadow: 0 0 50px #00FF00;
+}
