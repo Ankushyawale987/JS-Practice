@@ -4,7 +4,7 @@ var accountName = "Ankush";
 accountCity = "Amravati";
 let customerAddress;// undefined
 console.table([accountId, accountEmail, accountName, accountCity, customerAddress]);
-
+// Table dete output madhe
 // const Variable - Can't Update or Redeclare
 // let Variable - Can't Redeclare But can update
 // varVariable - Allow to update and redeclare
