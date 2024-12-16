@@ -8,9 +8,9 @@ console.log(balance.toString().length);
 console.log(balance.toFixed(2));
 // it will return the 2 number after the 2
 const otherNumber = 23.8966
-// console.log(otherNumber.toPrecision(3))
-// console.log(otherNumber.toPrecision(2))
-// console.log(otherNumber.toPrecision(1))
+// console.log(otherNumber.toPrecision(3)) // 23.9
+// console.log(otherNumber.toPrecision(2)) // 24
+// console.log(otherNumber.toPrecision(1)) // 2e+1
 
 const hundreds = 1000000
 //console.log(hundreds.toLocaleString('en-IN'));
