@@ -4,8 +4,17 @@
 
 // console.log(addTwoNumber(3, 4))
 
-function loginUserMessage(usermassage){
+function loginUserMessage1(usermassage){
   return `${usermassage} just loggedin`
 }
 
-console.log(loginUserMessage("Ankush"))
+console.log(loginUserMessage1("Ankush"))
+
+// Different aahe bhava loginUserMessage1 and loginUserMessage2 
+//loginUserMessage1 - It is return the value
+// loginUserMessage2 - It is print the value
+
+function loginUserMessage2(usermassage){
+  console.log(`${usermassage} just loggedin`);
+}
+console.log(loginUserMessage2("Ankush"))
